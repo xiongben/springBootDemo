@@ -11,8 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration(proxyBeanMethods = true)
 //@ConditionalOnBean(name="tom22")
 public class MyConfig {
-//    @AutoConfigureAfter
-//    @ConditionalOnMissingBean(name = "tom")
+
     @Bean
     public User user01(){
         User zhangsan = new User("zhangsan", 18);

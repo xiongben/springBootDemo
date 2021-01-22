@@ -2,6 +2,7 @@ package com.xiongben.boot;
 
 
 import com.xiongben.boot.bean.Pet;
+import com.xiongben.boot.bean.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -22,7 +23,8 @@ public class MainApplication {
         boolean user01 = run.containsBean("user01");
         System.out.println("容器中user01组件：" + user01);
 
-
+        User user02 = run.getBean("user01",User.class);
+        System.out.println(user02);
     }
 
 

@@ -1,5 +1,8 @@
 package com.xiongben.boot.bean;
 
+import lombok.Data;
+
+@Data
 public class User {
     private String name;
     private Integer age;
@@ -9,7 +12,5 @@ public class User {
         this.age = age;
     }
 
-    public void setPet(Pet pet) {
-        this.pet = pet;
-    }
+
 }
