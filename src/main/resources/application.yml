@@ -1,0 +1,31 @@
+person:
+  boss: true
+  birth: 2019/12/9
+  age: 15
+  interests:
+    - football
+    - basketball
+    - pingpang
+  animal: [dog,cat]
+  score:
+    english: 59
+    math: 90
+  salarys:
+    - 999
+    - 888
+    - 656
+  dog:
+    name: tom
+    weight: 10
+  allPets:
+    sick:
+      - {name:tom1,weight: 12}
+      - name: tom2
+        weight: 14
+      - name: tom3
+        weight: 17
+    health:
+      - name: jack
+        weight: 30
+  user-name: zhaosi
+

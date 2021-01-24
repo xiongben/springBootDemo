@@ -25,6 +25,7 @@ public class MainApplication {
 
         User user02 = run.getBean("user01",User.class);
         System.out.println(user02);
+
     }
 
 
